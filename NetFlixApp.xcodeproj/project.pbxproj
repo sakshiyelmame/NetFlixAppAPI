@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B927395629C2EB620098224E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927395529C2EB620098224E /* AppDelegate.swift */; };
+		B927395829C2EB620098224E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927395729C2EB620098224E /* SceneDelegate.swift */; };
+		B927395A29C2EB620098224E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927395929C2EB620098224E /* ViewController.swift */; };
+		B927395D29C2EB620098224E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B927395B29C2EB620098224E /* Main.storyboard */; };
+		B927395F29C2EB630098224E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B927395E29C2EB630098224E /* Assets.xcassets */; };
+		B927396229C2EB630098224E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B927396029C2EB630098224E /* LaunchScreen.storyboard */; };
+		B927396D29C2EB640098224E /* NetFlixAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927396C29C2EB640098224E /* NetFlixAppTests.swift */; };
+		B927397729C2EB640098224E /* NetFlixAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927397629C2EB640098224E /* NetFlixAppUITests.swift */; };
+		B927397929C2EB640098224E /* NetFlixAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927397829C2EB640098224E /* NetFlixAppUITestsLaunchTests.swift */; };
+		B927398629C2EC880098224E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927398529C2EC880098224E /* MyTableViewCell.swift */; };
+		B927398A29C2F4550098224E /* EntertainmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927398929C2F4550098224E /* EntertainmentApp.swift */; };
+		B927398C29C316040098224E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927398B29C316040098224E /* NextViewController.swift */; };
+		B9B64AD629C433E8009B189F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927398729C2F25F0098224E /* MyCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B927396929C2EB640098224E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B927394A29C2EB620098224E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B927395129C2EB620098224E;
+			remoteInfo = NetFlixApp;
+		};
+		B927397329C2EB640098224E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B927394A29C2EB620098224E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B927395129C2EB620098224E;
+			remoteInfo = NetFlixApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B927395229C2EB620098224E /* NetFlixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetFlixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B927395529C2EB620098224E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B927395729C2EB620098224E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B927395929C2EB620098224E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B927395C29C2EB620098224E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B927395E29C2EB630098224E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B927396129C2EB630098224E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B927396329C2EB630098224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B927396829C2EB640098224E /* NetFlixAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetFlixAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B927396C29C2EB640098224E /* NetFlixAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFlixAppTests.swift; sourceTree = "<group>"; };
+		B927397229C2EB640098224E /* NetFlixAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetFlixAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B927397629C2EB640098224E /* NetFlixAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFlixAppUITests.swift; sourceTree = "<group>"; };
+		B927397829C2EB640098224E /* NetFlixAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetFlixAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B927398529C2EC880098224E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		B927398729C2F25F0098224E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B927398929C2F4550098224E /* EntertainmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentApp.swift; sourceTree = "<group>"; };
+		B927398B29C316040098224E /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B927394F29C2EB620098224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927396529C2EB640098224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927396F29C2EB640098224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B927394929C2EB620098224E = {
+			isa = PBXGroup;
+			children = (
+				B927395429C2EB620098224E /* NetFlixApp */,
+				B927396B29C2EB640098224E /* NetFlixAppTests */,
+				B927397529C2EB640098224E /* NetFlixAppUITests */,
+				B927395329C2EB620098224E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B927395329C2EB620098224E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B927395229C2EB620098224E /* NetFlixApp.app */,
+				B927396829C2EB640098224E /* NetFlixAppTests.xctest */,
+				B927397229C2EB640098224E /* NetFlixAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B927395429C2EB620098224E /* NetFlixApp */ = {
+			isa = PBXGroup;
+			children = (
+				B927395529C2EB620098224E /* AppDelegate.swift */,
+				B927395729C2EB620098224E /* SceneDelegate.swift */,
+				B927395929C2EB620098224E /* ViewController.swift */,
+				B927398529C2EC880098224E /* MyTableViewCell.swift */,
+				B927398729C2F25F0098224E /* MyCollectionViewCell.swift */,
+				B927398929C2F4550098224E /* EntertainmentApp.swift */,
+				B927398B29C316040098224E /* NextViewController.swift */,
+				B927395B29C2EB620098224E /* Main.storyboard */,
+				B927395E29C2EB630098224E /* Assets.xcassets */,
+				B927396029C2EB630098224E /* LaunchScreen.storyboard */,
+				B927396329C2EB630098224E /* Info.plist */,
+			);
+			path = NetFlixApp;
+			sourceTree = "<group>";
+		};
+		B927396B29C2EB640098224E /* NetFlixAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B927396C29C2EB640098224E /* NetFlixAppTests.swift */,
+			);
+			path = NetFlixAppTests;
+			sourceTree = "<group>";
+		};
+		B927397529C2EB640098224E /* NetFlixAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B927397629C2EB640098224E /* NetFlixAppUITests.swift */,
+				B927397829C2EB640098224E /* NetFlixAppUITestsLaunchTests.swift */,
+			);
+			path = NetFlixAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B927395129C2EB620098224E /* NetFlixApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B927397C29C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixApp" */;
+			buildPhases = (
+				B927394E29C2EB620098224E /* Sources */,
+				B927394F29C2EB620098224E /* Frameworks */,
+				B927395029C2EB620098224E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetFlixApp;
+			productName = NetFlixApp;
+			productReference = B927395229C2EB620098224E /* NetFlixApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B927396729C2EB640098224E /* NetFlixAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B927397F29C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixAppTests" */;
+			buildPhases = (
+				B927396429C2EB640098224E /* Sources */,
+				B927396529C2EB640098224E /* Frameworks */,
+				B927396629C2EB640098224E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B927396A29C2EB640098224E /* PBXTargetDependency */,
+			);
+			name = NetFlixAppTests;
+			productName = NetFlixAppTests;
+			productReference = B927396829C2EB640098224E /* NetFlixAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B927397129C2EB640098224E /* NetFlixAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B927398229C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixAppUITests" */;
+			buildPhases = (
+				B927396E29C2EB640098224E /* Sources */,
+				B927396F29C2EB640098224E /* Frameworks */,
+				B927397029C2EB640098224E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B927397429C2EB640098224E /* PBXTargetDependency */,
+			);
+			name = NetFlixAppUITests;
+			productName = NetFlixAppUITests;
+			productReference = B927397229C2EB640098224E /* NetFlixAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B927394A29C2EB620098224E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B927395129C2EB620098224E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B927396729C2EB640098224E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B927395129C2EB620098224E;
+					};
+					B927397129C2EB640098224E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B927395129C2EB620098224E;
+					};
+				};
+			};
+			buildConfigurationList = B927394D29C2EB620098224E /* Build configuration list for PBXProject "NetFlixApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B927394929C2EB620098224E;
+			productRefGroup = B927395329C2EB620098224E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B927395129C2EB620098224E /* NetFlixApp */,
+				B927396729C2EB640098224E /* NetFlixAppTests */,
+				B927397129C2EB640098224E /* NetFlixAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B927395029C2EB620098224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B927396229C2EB630098224E /* LaunchScreen.storyboard in Resources */,
+				B927395F29C2EB630098224E /* Assets.xcassets in Resources */,
+				B927395D29C2EB620098224E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927396629C2EB640098224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927397029C2EB640098224E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B927394E29C2EB620098224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B927395A29C2EB620098224E /* ViewController.swift in Sources */,
+				B9B64AD629C433E8009B189F /* MyCollectionViewCell.swift in Sources */,
+				B927398C29C316040098224E /* NextViewController.swift in Sources */,
+				B927398629C2EC880098224E /* MyTableViewCell.swift in Sources */,
+				B927395629C2EB620098224E /* AppDelegate.swift in Sources */,
+				B927398A29C2F4550098224E /* EntertainmentApp.swift in Sources */,
+				B927395829C2EB620098224E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927396429C2EB640098224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B927396D29C2EB640098224E /* NetFlixAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B927396E29C2EB640098224E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B927397729C2EB640098224E /* NetFlixAppUITests.swift in Sources */,
+				B927397929C2EB640098224E /* NetFlixAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B927396A29C2EB640098224E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B927395129C2EB620098224E /* NetFlixApp */;
+			targetProxy = B927396929C2EB640098224E /* PBXContainerItemProxy */;
+		};
+		B927397429C2EB640098224E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B927395129C2EB620098224E /* NetFlixApp */;
+			targetProxy = B927397329C2EB640098224E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B927395B29C2EB620098224E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B927395C29C2EB620098224E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B927396029C2EB630098224E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B927396129C2EB630098224E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B927397A29C2EB640098224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B927397B29C2EB640098224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B927397D29C2EB640098224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetFlixApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B927397E29C2EB640098224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetFlixApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B927398029C2EB640098224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetFlixApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetFlixApp";
+			};
+			name = Debug;
+		};
+		B927398129C2EB640098224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetFlixApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetFlixApp";
+			};
+			name = Release;
+		};
+		B927398329C2EB640098224E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetFlixApp;
+			};
+			name = Debug;
+		};
+		B927398429C2EB640098224E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakshiyelmame.NetFlixAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetFlixApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B927394D29C2EB620098224E /* Build configuration list for PBXProject "NetFlixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B927397A29C2EB640098224E /* Debug */,
+				B927397B29C2EB640098224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B927397C29C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B927397D29C2EB640098224E /* Debug */,
+				B927397E29C2EB640098224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B927397F29C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B927398029C2EB640098224E /* Debug */,
+				B927398129C2EB640098224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B927398229C2EB640098224E /* Build configuration list for PBXNativeTarget "NetFlixAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B927398329C2EB640098224E /* Debug */,
+				B927398429C2EB640098224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B927394A29C2EB620098224E /* Project object */;
+}

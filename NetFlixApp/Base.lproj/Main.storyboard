@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jzi-vk-VD1">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NetFlixApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gxm-gB-OcX">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="200" id="j7T-hR-lw7" customClass="MyTableViewCell" customModule="NetFlixApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j7T-hR-lw7" id="lRy-2z-zYQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="d13-tG-za6">
+                                                    <rect key="frame" x="20" y="11" width="353" height="178"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="5" minimumInteritemSpacing="5" id="bBp-4c-bWU">
+                                                        <size key="itemSize" width="170" height="168"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectioncell" id="hYO-Nf-RDa" customClass="MyCollectionViewCell" customModule="NetFlixApp" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="5" width="170" height="168"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hZe-4t-kFW">
+                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="168"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tanhaji" translatesAutoresizingMaskIntoConstraints="NO" id="HVl-IK-JkK">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="170" height="168"/>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="HVl-IK-JkK" firstAttribute="leading" secondItem="hZe-4t-kFW" secondAttribute="leading" id="N99-SE-oGb"/>
+                                                                    <constraint firstItem="HVl-IK-JkK" firstAttribute="top" secondItem="hZe-4t-kFW" secondAttribute="top" id="dtR-7g-Uax"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="HVl-IK-JkK" secondAttribute="trailing" id="km6-Jm-wOe"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="HVl-IK-JkK" secondAttribute="bottom" id="rof-dG-Qgl"/>
+                                                                </constraints>
+                                                            </collectionViewCellContentView>
+                                                            <size key="customSize" width="170" height="168"/>
+                                                            <connections>
+                                                                <outlet property="myImage" destination="HVl-IK-JkK" id="gyf-JO-vG8"/>
+                                                            </connections>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                </collectionView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="d13-tG-za6" secondAttribute="bottom" id="2iJ-Sl-hYa"/>
+                                                <constraint firstItem="d13-tG-za6" firstAttribute="top" secondItem="lRy-2z-zYQ" secondAttribute="topMargin" id="4TQ-tj-jVE"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="d13-tG-za6" secondAttribute="trailing" id="SwC-PW-Mra"/>
+                                                <constraint firstItem="d13-tG-za6" firstAttribute="leading" secondItem="lRy-2z-zYQ" secondAttribute="leadingMargin" id="XA2-yL-Pa0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myCollectionView" destination="d13-tG-za6" id="Ldo-2x-7uh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Zna-ik-rYc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Y6N-iT-qUh"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gxm-gB-OcX" secondAttribute="trailing" id="0ys-Eu-AYP"/>
+                            <constraint firstItem="gxm-gB-OcX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="G8B-1M-xFC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gxm-gB-OcX" secondAttribute="bottom" id="jKh-9B-JLS"/>
+                            <constraint firstItem="gxm-gB-OcX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jTG-KR-al9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pkv-OP-x3p"/>
+                    <connections>
+                        <outlet property="myTable" destination="gxm-gB-OcX" id="uDA-eg-84v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451" y="-156"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="6UU-en-ZeQ">
+            <objects>
+                <viewController storyboardIdentifier="NextViewController" id="13x-QP-i1p" customClass="NextViewController" customModule="NetFlixApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uv7-VD-UIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ypw-kB-lv5">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nrR-KO-CtE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ypw-kB-lv5" firstAttribute="top" secondItem="nrR-KO-CtE" secondAttribute="top" id="K57-n5-It2"/>
+                            <constraint firstItem="nrR-KO-CtE" firstAttribute="bottom" secondItem="Ypw-kB-lv5" secondAttribute="bottom" id="Rxf-EI-DeK"/>
+                            <constraint firstItem="Ypw-kB-lv5" firstAttribute="leading" secondItem="nrR-KO-CtE" secondAttribute="leading" id="ZNt-pP-NCu"/>
+                            <constraint firstItem="nrR-KO-CtE" firstAttribute="trailing" secondItem="Ypw-kB-lv5" secondAttribute="trailing" id="gbb-2T-I8q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myWebView" destination="Ypw-kB-lv5" id="D0I-4w-omQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JI0-7V-5KB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="-156"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="X6Y-mg-aQA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jzi-vk-VD1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ry1-qZ-VXz">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="s0u-2x-Rlw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jZ3-Jn-7VR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="-156"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tanhaji" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
